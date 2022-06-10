@@ -41,6 +41,11 @@ const Game = () => {
       alert("wybuchła wojna");
       setAk47((prevState) => 699);
     }
+
+    if (Day === 3) {
+      alert("Koniec wojny");
+      setAk47((prevState) => 40);
+    }
   };
 
   // ZAKUPY I SPRZEDAZ
@@ -322,13 +327,11 @@ const Game = () => {
           </div>
         </div>
       </div>
-
       <AppContext.Provider
         value={{ Portfel, stanAK, stanM16, stanMP5, stanUzi, stanDigle }}
       >
         <Wallet />
       </AppContext.Provider>
-
       {/* <div className="portfel">
         <p>
           W portfelu <strong>{Portfel}$</strong>{" "}
@@ -339,11 +342,11 @@ const Game = () => {
         <p>ilośc posiadanych digli: {Digle}</p>
       </div> */}
 
-      {/* <div className="day">
+      <div className="day">
         <p>DZIEŃ {Day} </p>
 
         <button onClick={hanlderDay}>KOLEJNY DZIEŃ</button>
-      </div> */}
+      </div>
     </div>
   );
 };
