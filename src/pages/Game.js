@@ -100,6 +100,7 @@ const Game = () => {
             <div className="gun">
               <p>{ak47}$/each</p>
               <button
+                className="buttongun"
                 disabled={Portfel < ak47 ? true : false}
                 onClick={handlerBuyAK}
               >
@@ -109,6 +110,7 @@ const Game = () => {
             <div className="gun">
               <p>{m16}$/each</p>
               <button
+                className="buttongun"
                 disabled={Portfel < m16 ? true : false}
                 onClick={handlerBuyM16}
               >
@@ -118,6 +120,7 @@ const Game = () => {
             <div className="gun">
               <p>{mp5}$/each</p>
               <button
+                className="buttongun"
                 disabled={Portfel < mp5 ? true : false}
                 onClick={handlerBuyMP5}
               >
@@ -127,6 +130,7 @@ const Game = () => {
             <div className="gun">
               <p>{uzi}$/each</p>
               <button
+                className="buttongun"
                 disabled={Portfel < uzi ? true : false}
                 onClick={handlerBuyUzi}
               >
@@ -136,6 +140,7 @@ const Game = () => {
             <div className="gun">
               <p>{digle}$/each</p>
               <button
+                className="buttongun"
                 disabled={Portfel < digle ? true : false}
                 onClick={handlerBuyDigle}
               >
@@ -154,6 +159,7 @@ const Game = () => {
             <div className="gun">
               <p>{ak47S}$/each</p>
               <button
+                className="buttongun"
                 disabled={stanAK < 1 ? true : false}
                 onClick={handlerSellAK}
               >
@@ -163,6 +169,7 @@ const Game = () => {
             <div className="gun">
               <p>{m16S}$/each</p>
               <button
+                className="buttongun"
                 disabled={stanM16 < 1 ? true : false}
                 onClick={handlerSellM16}
               >
@@ -172,6 +179,7 @@ const Game = () => {
             <div className="gun">
               <p>{mp5S}$/each</p>
               <button
+                className="buttongun"
                 disabled={stanMP5 < 1 ? true : false}
                 onClick={handlerSellMP5}
               >
@@ -181,6 +189,7 @@ const Game = () => {
             <div className="gun">
               <p>{uziS}$/each</p>
               <button
+                className="buttongun"
                 disabled={stanUzi < 1 ? true : false}
                 onClick={handlerSellUzi}
               >
@@ -190,6 +199,7 @@ const Game = () => {
             <div className="gun">
               <p>{digleS}$/each</p>
               <button
+                className="buttongun"
                 disabled={stanDigle < 1 ? true : false}
                 onClick={handlerSellDigle}
               >
@@ -203,6 +213,7 @@ const Game = () => {
             <div className="gun">
               <p>{ak47}$/each</p>
               <button
+                className="buttongun"
                 disabled={Portfel < ak47 ? true : false}
                 onClick={handlerBuyAK}
               >
@@ -212,6 +223,7 @@ const Game = () => {
             <div className="gun">
               <p>{m16}$/each</p>
               <button
+                className="buttongun"
                 disabled={Portfel < m16 ? true : false}
                 onClick={handlerBuyM16}
               >
@@ -221,6 +233,7 @@ const Game = () => {
             <div className="gun">
               <p>{mp5}$/each</p>
               <button
+                className="buttongun"
                 disabled={Portfel < mp5 ? true : false}
                 onClick={handlerBuyMP5}
               >
@@ -230,6 +243,7 @@ const Game = () => {
             <div className="gun">
               <p>{uzi}$/each</p>
               <button
+                className="buttongun"
                 disabled={Portfel < uzi ? true : false}
                 onClick={handlerBuyUzi}
               >
@@ -239,6 +253,7 @@ const Game = () => {
             <div className="gun">
               <p>{digle}$/each</p>
               <button
+                className="buttongun"
                 disabled={Portfel < digle ? true : false}
                 onClick={handlerBuyDigle}
               >
@@ -257,6 +272,7 @@ const Game = () => {
             <div className="gun">
               <p>{ak47S}$/each</p>
               <button
+                className="buttongun"
                 disabled={stanAK < 1 ? true : false}
                 onClick={handlerSellAK}
               >
@@ -266,6 +282,7 @@ const Game = () => {
             <div className="gun">
               <p>{m16S}$/each</p>
               <button
+                className="buttongun"
                 disabled={stanM16 < 1 ? true : false}
                 onClick={handlerSellM16}
               >
@@ -275,6 +292,7 @@ const Game = () => {
             <div className="gun">
               <p>{mp5S}$/each</p>
               <button
+                className="buttongun"
                 disabled={stanMP5 < 1 ? true : false}
                 onClick={handlerSellMP5}
               >
@@ -284,6 +302,7 @@ const Game = () => {
             <div className="gun">
               <p>{uziS}$/each</p>
               <button
+                className="buttongun"
                 disabled={stanUzi < 1 ? true : false}
                 onClick={handlerSellUzi}
               >
@@ -293,6 +312,7 @@ const Game = () => {
             <div className="gun">
               <p>{digleS}$/each</p>
               <button
+                className="buttongun"
                 disabled={stanDigle < 1 ? true : false}
                 onClick={handlerSellDigle}
               >
