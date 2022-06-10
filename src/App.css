@@ -1,6 +1,6 @@
-/* .App {
-  text-align: center;
-} */
+.App {
+  background-color: rgb(124, 84, 52);
+}
 
 .countries {
   display: flex;
@@ -14,14 +14,15 @@
   padding: 20px;
   border-radius: 10%;
   background-color: rgb(75, 50, 30);
+  font-weight: bold;
 }
 
 .gunsPic {
   display: flex;
   flex-direction: column;
-  /* margin-top: 20px; */
+  margin-top: 20px;
   /* padding-top: 40px; */
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .guni {
   /* margin-top: 35px; */
@@ -30,27 +31,15 @@
   background-size: cover;
 }
 
-.gun {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 17px;
-  font-weight: bold;
-}
-
 .gunsBuy {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .gunsSell {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-}
-
-.portfel {
-  background-color: rgb(199, 202, 201);
+  justify-content: space-between;
 }
 
 .day {
@@ -61,6 +50,40 @@
   left: 20px;
   padding: 5px;
   font-size: 25px;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.wszystkiestany {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+
+  background-color: rgb(75, 50, 30);
+}
+
+.stany {
+  margin: 10px;
+}
+.stan {
+  margin-top: 15px;
+
+  font-size: 45px;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+.yel {
+  border: 2px solid yellow;
+}
+
+.portfel {
+  font-size: 30px;
 }
 
 .pic1 {

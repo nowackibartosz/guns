@@ -7,16 +7,41 @@ const Porrtfel = () => {
     useContext(AppContext);
 
   return (
-    <div className="portfel">
-      <p>
-        W portfelu <strong>{Portfel}$</strong>{" "}
-      </p>
+    <div className="aboutme">
+      <div className="portfel">
+        {" "}
+        <p>
+          CASH <strong>{Portfel}$</strong>{" "}
+        </p>
+      </div>
 
-      <p>ilośc posiadanych ak47: {stanAK}</p>
-      <p>ilośc posiadanych m16: {stanM16}</p>
-      <p>ilośc posiadanych MP5: {stanMP5}</p>
-      <p>ilośc posiadanych Uzi: {stanUzi}</p>
-      <p>ilośc posiadanych digli: {stanDigle}</p>
+      <div className="wszystkiestany">
+        <div className="stany">
+          {" "}
+          <div className="guni pic1 yel"></div>
+          <div className="stan">{stanAK}</div>
+        </div>
+        <div className="stany">
+          {" "}
+          <div className="guni pic2 yel"></div>
+          <div className="stan">{stanM16}</div>
+        </div>
+        <div className="stany">
+          {" "}
+          <div className="guni pic3 yel"></div>
+          <div className="stan">{stanMP5}</div>
+        </div>
+        <div className="stany">
+          {" "}
+          <div className="guni pic4 yel"></div>
+          <div className="stan">{stanUzi}</div>
+        </div>
+        <div className="stany">
+          {" "}
+          <div className="guni pic5 yel"></div>
+          <div className="stan">{stanDigle}</div>
+        </div>
+      </div>
     </div>
   );
 };
