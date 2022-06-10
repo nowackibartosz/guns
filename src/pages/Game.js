@@ -94,101 +94,211 @@ const Game = () => {
 
   return (
     <div className="App">
-      <div className="kont">
-        <div className="gunsBuy">
-          <h3>KUP BROŃ</h3>
-          <div className="gun">
-            <p>Ak47: {ak47}$/each</p>
-            <button
-              disabled={Portfel < ak47 ? true : false}
-              onClick={handlerBuyAK}
-            >
-              KUP
-            </button>
+      <div className="countries">
+        <div className="country usa">
+          <div className="gunsBuy">
+            <div className="gun">
+              <p>{ak47}$/each</p>
+              <button
+                disabled={Portfel < ak47 ? true : false}
+                onClick={handlerBuyAK}
+              >
+                BUY
+              </button>
+            </div>
+            <div className="gun">
+              <p>{m16}$/each</p>
+              <button
+                disabled={Portfel < m16 ? true : false}
+                onClick={handlerBuyM16}
+              >
+                BUY
+              </button>
+            </div>
+            <div className="gun">
+              <p>{mp5}$/each</p>
+              <button
+                disabled={Portfel < mp5 ? true : false}
+                onClick={handlerBuyMP5}
+              >
+                BUY
+              </button>
+            </div>
+            <div className="gun">
+              <p>{uzi}$/each</p>
+              <button
+                disabled={Portfel < uzi ? true : false}
+                onClick={handlerBuyUzi}
+              >
+                BUY
+              </button>
+            </div>
+            <div className="gun">
+              <p>{digle}$/each</p>
+              <button
+                disabled={Portfel < digle ? true : false}
+                onClick={handlerBuyDigle}
+              >
+                BUY
+              </button>
+            </div>
           </div>
-          <div className="gun">
-            <p>m16: {m16}$/each</p>
-            <button
-              disabled={Portfel < m16 ? true : false}
-              onClick={handlerBuyM16}
-            >
-              KUP
-            </button>
+          <div className="gunsPic">
+            <div className="guni pic1"></div>
+            <div className="guni pic2"></div>
+            <div className="guni pic3"></div>
+            <div className="guni pic4"></div>
+            <div className="guni pic5"></div>
           </div>
-          <div className="gun">
-            <p>MP5: {mp5}$/each</p>
-            <button
-              disabled={Portfel < ak47 ? true : false}
-              onClick={handlerBuyMP5}
-            >
-              KUP
-            </button>
-          </div>
-          <div className="gun">
-            <p>Uzi: {uzi}$/each</p>
-            <button
-              disabled={Portfel < ak47 ? true : false}
-              onClick={handlerBuyUzi}
-            >
-              KUP
-            </button>
-          </div>
-          <div className="gun">
-            <p>Digle: {digle}$/each</p>
-            <button
-              disabled={Portfel < digle ? true : false}
-              onClick={handlerBuyDigle}
-            >
-              KUP
-            </button>
+          <div className="gunsSell">
+            <div className="gun">
+              <p>{ak47S}$/each</p>
+              <button
+                disabled={stanAK < 1 ? true : false}
+                onClick={handlerSellAK}
+              >
+                SELL
+              </button>
+            </div>
+            <div className="gun">
+              <p>{m16S}$/each</p>
+              <button
+                disabled={stanM16 < 1 ? true : false}
+                onClick={handlerSellM16}
+              >
+                SELL
+              </button>
+            </div>
+            <div className="gun">
+              <p>{mp5S}$/each</p>
+              <button
+                disabled={stanMP5 < 1 ? true : false}
+                onClick={handlerSellMP5}
+              >
+                SELL
+              </button>
+            </div>
+            <div className="gun">
+              <p>{uziS}$/each</p>
+              <button
+                disabled={stanUzi < 1 ? true : false}
+                onClick={handlerSellUzi}
+              >
+                SELL
+              </button>
+            </div>
+            <div className="gun">
+              <p>{digleS}$/each</p>
+              <button
+                disabled={stanDigle < 1 ? true : false}
+                onClick={handlerSellDigle}
+              >
+                SELL
+              </button>
+            </div>
           </div>
         </div>
-        <div className="gunsSell">
-          <h3>SPRZEDAJ BROŃ</h3>
-          <div className="gun">
-            <p>Ak47: {ak47S}$/each</p>
-            <button
-              disabled={stanAK < 1 ? true : false}
-              onClick={handlerSellAK}
-            >
-              SPRZEDAJ
-            </button>
+        <div className="country polska">
+          <div className="gunsBuy">
+            <div className="gun">
+              <p>{ak47}$/each</p>
+              <button
+                disabled={Portfel < ak47 ? true : false}
+                onClick={handlerBuyAK}
+              >
+                BUY
+              </button>
+            </div>
+            <div className="gun">
+              <p>{m16}$/each</p>
+              <button
+                disabled={Portfel < m16 ? true : false}
+                onClick={handlerBuyM16}
+              >
+                BUY
+              </button>
+            </div>
+            <div className="gun">
+              <p>{mp5}$/each</p>
+              <button
+                disabled={Portfel < mp5 ? true : false}
+                onClick={handlerBuyMP5}
+              >
+                BUY
+              </button>
+            </div>
+            <div className="gun">
+              <p>{uzi}$/each</p>
+              <button
+                disabled={Portfel < uzi ? true : false}
+                onClick={handlerBuyUzi}
+              >
+                BUY
+              </button>
+            </div>
+            <div className="gun">
+              <p>{digle}$/each</p>
+              <button
+                disabled={Portfel < digle ? true : false}
+                onClick={handlerBuyDigle}
+              >
+                BUY
+              </button>
+            </div>
           </div>
-          <div className="gun">
-            <p>m16: {m16S}$/each</p>
-            <button
-              disabled={stanM16 < 1 ? true : false}
-              onClick={handlerSellM16}
-            >
-              SPRZEDAJ
-            </button>
+          <div className="gunsPic">
+            <div className="guni pic1"></div>
+            <div className="guni pic2"></div>
+            <div className="guni pic3"></div>
+            <div className="guni pic4"></div>
+            <div className="guni pic5"></div>
           </div>
-          <div className="gun">
-            <p>MP5: {mp5S}$/each</p>
-            <button
-              disabled={stanMP5 < 1 ? true : false}
-              onClick={handlerSellMP5}
-            >
-              SPRZEDAJ
-            </button>
-          </div>
-          <div className="gun">
-            <p>Uzi: {uziS}$/each</p>
-            <button
-              disabled={stanUzi < 1 ? true : false}
-              onClick={handlerSellUzi}
-            >
-              SPRZEDAJ
-            </button>
-          </div>
-          <div className="gun">
-            <p>Digle: {digleS}$/each</p>
-            <button
-              disabled={stanDigle < 1 ? true : false}
-              onClick={handlerSellDigle}
-            >
-              SPRZEDAJ
-            </button>
+          <div className="gunsSell">
+            <div className="gun">
+              <p>{ak47S}$/each</p>
+              <button
+                disabled={stanAK < 1 ? true : false}
+                onClick={handlerSellAK}
+              >
+                SELL
+              </button>
+            </div>
+            <div className="gun">
+              <p>{m16S}$/each</p>
+              <button
+                disabled={stanM16 < 1 ? true : false}
+                onClick={handlerSellM16}
+              >
+                SELL
+              </button>
+            </div>
+            <div className="gun">
+              <p>{mp5S}$/each</p>
+              <button
+                disabled={stanMP5 < 1 ? true : false}
+                onClick={handlerSellMP5}
+              >
+                SELL
+              </button>
+            </div>
+            <div className="gun">
+              <p>{uziS}$/each</p>
+              <button
+                disabled={stanUzi < 1 ? true : false}
+                onClick={handlerSellUzi}
+              >
+                SELL
+              </button>
+            </div>
+            <div className="gun">
+              <p>{digleS}$/each</p>
+              <button
+                disabled={stanDigle < 1 ? true : false}
+                onClick={handlerSellDigle}
+              >
+                SELL
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -209,11 +319,11 @@ const Game = () => {
         <p>ilośc posiadanych digli: {Digle}</p>
       </div> */}
 
-      <div className="day">
+      {/* <div className="day">
         <p>DZIEŃ {Day} </p>
 
         <button onClick={hanlderDay}>KOLEJNY DZIEŃ</button>
-      </div>
+      </div> */}
     </div>
   );
 };
