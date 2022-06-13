@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Game.css";
 
 const Game = () => {
   //CENY BRONI DO KUPIENIA//

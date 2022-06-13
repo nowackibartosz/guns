@@ -1,4 +1,4 @@
-import ContactMe from "./ContactMe";
+import ContactMe from "../../components/ContactMe/ContactMe";
 import { useNavigate } from "react-router-dom";
 
 const FinalScreen = () => {
