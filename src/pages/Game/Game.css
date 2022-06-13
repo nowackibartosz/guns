@@ -50,57 +50,6 @@
   font-size: 25px;
 }
 
-.aboutme {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.wszystkiestany {
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-
-  background-color: rgb(75, 50, 30);
-}
-
-.stany {
-  margin: 10px;
-}
-.stan {
-  margin-top: 15px;
-
-  font-size: 45px;
-  font-weight: bolder;
-  color: aliceblue;
-}
-
-.yel {
-  border: 2px solid yellow;
-}
-
-.portfel {
-  font-size: 30px;
-}
-
-.pic1 {
-  background-image: url("../../gunsIMG/ak47.jpg");
-}
-
-.pic2 {
-  background-image: url("../../gunsIMG/m16.jpg");
-}
-.pic3 {
-  background-image: url("../../gunsIMG/mp5.jpg");
-}
-.pic4 {
-  background-image: url("../../gunsIMG/uzi.jpg");
-}
-.pic5 {
-  background-image: url("../../gunsIMG/digle.jpg");
-}
-
 .buttongun {
   padding: 10px;
   background-color: rgb(0, 189, 0);

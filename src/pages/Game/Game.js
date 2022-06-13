@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./Game.css";
+import { Context, defaultObject } from "../../Context";
+import Wallet from "../../components/Wallet";
 
 const Game = () => {
   //CENY BRONI DO KUPIENIA//
@@ -48,11 +50,11 @@ const Game = () => {
   };
 
   // //HAJSSS/
-  const [Portfel, setPortfel] = useState(1000);
+  const [Portfel, setPortfel] = useState(defaultObject.Portfel);
 
   // // ILOŚC W PORTFELU I PRZY SOBIE
-  const [stanWeapon1, setStanWeapon1] = useState(0);
-  const [stanWeapon2, setStanWeapon2] = useState(0);
+  const [stanWeapon1, setStanWeapon1] = useState(defaultObject.stanWeapon1);
+  const [stanWeapon2, setStanWeapon2] = useState(defaultObject.stanWeapon2);
 
   return (
     <div className="App">
@@ -111,27 +113,11 @@ const Game = () => {
           </div>
         </div>
       </div>
-      <div className="aboutme">
-        <div className="portfel">
-          {" "}
-          <p>
-            CASH <strong>{Portfel}$</strong>{" "}
-          </p>
-        </div>
 
-        <div className="wszystkiestany">
-          <div className="stany">
-            {" "}
-            <div className="guni pic1 yel"></div>
-            <div className="stan">{stanWeapon1}</div>
-          </div>
-          <div className="stany">
-            {" "}
-            <div className="guni pic2 yel"></div>
-            <div className="stan">{stanWeapon2}</div>
-          </div>
-        </div>
-      </div>
+      <Context.Provider value={{ Portfel, stanWeapon1, stanWeapon2 }}>
+        <Wallet />
+      </Context.Provider>
+
       <div className="day">
         <p>DZIEŃ {Day} </p>
 
