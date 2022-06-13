@@ -1,0 +1,42 @@
+.all {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 100px;
+  background-color: antiquewhite;
+
+  justify-content: center;
+  align-content: center;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instrukcja {
+  margin-top: 40px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.przyciski {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  /* align-content: center; */
+}
+
+.start {
+  width: 250px;
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 45px;
+  font-size: 25px;
+  background-color: rgb(0, 189, 0);
+}
