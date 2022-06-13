@@ -25,7 +25,8 @@
 }
 
 .yel {
-  border: 2px solid yellow;
+  border: 3px solid yellow;
+  border-radius: 50px;
 }
 
 .portfel {
