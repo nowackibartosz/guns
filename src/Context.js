@@ -3,7 +3,7 @@ import { createContext } from "react";
 export const defaultObject = {
   stanWeapon1: 0,
   stanWeapon2: 0,
-
+  Day: 1,
   Portfel: 1000,
 };
 
