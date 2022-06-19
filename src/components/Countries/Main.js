@@ -3,23 +3,27 @@ import "./Main.css";
 import Wallet from "../Wallet";
 // import Historia from "./Historia";
 import Country1 from "./Country1";
+import Country2 from "./Country2";
+import Country3 from "./Country3";
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 const Main = () => {
   const navigate = useNavigate();
 
   //CENY BRONI DO KUPIENIA//
-  const [weapon1, setWeapon1] = useState(10);
-  const [weapon2, setWeapon2] = useState(20);
-  const [weapon3, setWeapon3] = useState(30);
-  const [weapon4, setWeapon4] = useState(40);
-  const [weapon5, setWeapon5] = useState(50);
+  const [weapon1, setWeapon1] = useState(100);
+  const [weapon2, setWeapon2] = useState(200);
+  const [weapon3, setWeapon3] = useState(300);
+  const [weapon4, setWeapon4] = useState(400);
+  const [weapon5, setWeapon5] = useState(500);
   //CENY BRONI DO SPRZEDAŻY//
-  const [weapon1S, setWeapon1S] = useState(10);
-  const [weapon2S, setWeapon2S] = useState(20);
-  const [weapon3S, setWeapon3S] = useState(33);
-  const [weapon4S, setWeapon4S] = useState(44);
-  const [weapon5S, setWeapon5S] = useState(55);
+  const [weapon1S, setWeapon1S] = useState(100);
+  const [weapon2S, setWeapon2S] = useState(200);
+  const [weapon3S, setWeapon3S] = useState(330);
+  const [weapon4S, setWeapon4S] = useState(440);
+  const [weapon5S, setWeapon5S] = useState(550);
+
   //DNI ZABAWY//
   const [Day, setDay] = useState(defaultObject.Day);
 
@@ -93,15 +97,17 @@ const Main = () => {
       >
         <div className="countries">
           <Country1 />
+          <Country2 />
+          <Country3 />
         </div>
         <Wallet />
         {/* <Historia /> */}
       </Context.Provider>
 
       <div className="day">
-        <p>DZIEŃ {Day} </p>
-
-        <button onClick={handlerDay}>KOLEJNY DZIEŃ</button>
+        <button className="anotherday" onClick={handlerDay}>
+          NEXT DAY ({Day + 1})
+        </button>
       </div>
     </div>
   );

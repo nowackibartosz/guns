@@ -1,0 +1,26 @@
+.final {
+  display: flex;
+  flex-direction: column;
+}
+
+.final-score {
+  margin-top: 12vh;
+  margin-bottom: 12vh;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(75, 50, 30);
+}
+
+.final-score span {
+  font-size: 40px;
+  color: rgb(156, 156, 216);
+}
+
+.final-button {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}

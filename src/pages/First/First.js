@@ -19,33 +19,38 @@ const First = () => {
 
   return (
     <div>
-      <div className="all">
+      <div className="container">
         <div className="screen">
           <div className="title">
-            <h1>Month in life of guns dealer</h1>
+            <h1>GUNS DEALER</h1>
           </div>
           <div className="instrukcja">
-            <h2> Instruction of game</h2>
             <p>
-              1. musisz miec duzo Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Sint, cupiditate optio. Numquam, officiis?
-              Beatae ipsam culpa sequi, soluta tempore voluptatum eveniet ea
-              odio reprehenderit aperiam error ullam excepturi
+              1. Celem gry jest zgromadzenie poprzez handel bronią jak
+              największej ilości gotówki przed upływem dziesięciu dni.
             </p>
             <p>
-              2.Musisz to lubic i nie chceic teog zmienic lorem 20 Lorem ipsum
-              dolor, sit amet consectetur adipisicing elit. Non, debitis velit!
-              Saepe sed hic quo corrupti laudantium sapiente? Nisi, nemo!
+              2. Codziennie możesz podjąć się handlu tylko z jednym państwem.
+              Możesz zarówno sprzedawać jak i kupować broń.
+            </p>
+            <p>
+              3. Gra kończy się po upłynięciu dziesięciu tur(dni). Po
+              rozpoczęciu rozgrywki gry nie można zastopować.
+            </p>
+            <p>
+              4. Pamiętaj! To tylko gra, rzeczywistość jest dużo gorsza.
+              Zbieżność osób, nazwisk i zdarzeń całkowicie przypadkowa. Miłej
+              zabawy!
             </p>
           </div>{" "}
         </div>
 
         <div className="przyciski">
           <button className="start" onClick={handle}>
-            Lets play
+            ZAGRAJ
           </button>
           <button className="start" onClick={handleFinish}>
-            Finish menu
+            MENU KOŃCOWE
           </button>
         </div>
       </div>
