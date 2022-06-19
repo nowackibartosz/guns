@@ -1,8 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import First from "./pages/First";
-import Game from "./pages/Game";
-import FinalScreen from "./pages/FinalScreen";
+import First from "./pages/First/First";
+import Game from "./pages/Game/Game";
+
+import FinalScreen from "./pages/FinalScreen/FinalScreen";
 
 function App() {
   return (
