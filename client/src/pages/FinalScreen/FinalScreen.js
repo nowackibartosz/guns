@@ -1,12 +1,9 @@
 import ContactMe from "../../components/ContactMe/ContactMe";
 import { useNavigate } from "react-router-dom";
-import { Context } from "../../Context";
-import { useContext } from "react";
+
 import "./FinalScreen.css";
 
 const FinalScreen = () => {
-  const { Portfel } = useContext(Context);
-
   const navigate = useNavigate();
 
   const handleStart = (e) => {
@@ -21,9 +18,7 @@ const FinalScreen = () => {
   return (
     <div className="final">
       <div className="final-score">
-        <p>
-          Poszło Ci nieźle, Twój wynik to <span>${Portfel}</span>{" "}
-        </p>
+        <p>Dobra robota! Byłeś niczym Nicolas Cage w Pan życia i śmierci. </p>
       </div>
 
       <ContactMe />

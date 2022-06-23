@@ -19,22 +19,22 @@ const First = () => {
 
   return (
     <div>
-      <div className="container">
-        <div className="screen">
+      <div className="main">
+        <div className="main__screen">
           <div className="title">
             <h1>GUNS DEALER</h1>
           </div>
-          <div className="instrukcja">
+          <div className="instruction">
             <p>
-              1. Celem gry jest zgromadzenie poprzez handel bronią jak
-              największej ilości gotówki przed upływem dziesięciu dni.
+              1. Celem gry jest zgromadzenie jak największej ilości gotówki
+              poprzez handel bronią.
             </p>
             <p>
               2. Codziennie możesz podjąć się handlu tylko z jednym państwem.
-              Możesz zarówno sprzedawać jak i kupować broń.
+              Możesz kupować lub sprzedawać broń.
             </p>
             <p>
-              3. Gra kończy się po upłynięciu dziesięciu tur(dni). Po
+              3. Gra kończy się po upłynięciu dziesięciu dni(tur). Po
               rozpoczęciu rozgrywki gry nie można zastopować.
             </p>
             <p>
@@ -45,7 +45,7 @@ const First = () => {
           </div>{" "}
         </div>
 
-        <div className="przyciski">
+        <div className="main__buttons">
           <button className="start" onClick={handle}>
             ZAGRAJ
           </button>

@@ -7,7 +7,7 @@ export const defaultObject = {
   stanWeapon4: 0,
   stanWeapon5: 0,
   Day: 1,
-  Portfel: 1000,
+  Portfel: 800,
 };
 
 export const Context = createContext(defaultObject);
