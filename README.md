@@ -6,6 +6,13 @@
 
 <br>
 
+# General info
+
+The goal of the game is to get as much money as possible. You get it by selling more and buying cheaper. pay attention to the geopolitical situation and the directions appearing on the screen. Have fun
+<br>
+<br>
+
+
 ![homePage](./img/main1.png)
 
 <br>
@@ -22,11 +29,6 @@
   <br>
   <br>
 
-# General info
-
-The goal of the game is to get as much money as possible. You get it by selling more and buying cheaper. pay attention to the geopolitical situation and the directions appearing on the screen. Have fun
-<br>
-<br>
 
 <br>
 
