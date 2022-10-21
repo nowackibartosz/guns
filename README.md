@@ -55,7 +55,9 @@ $ npm start
 
 # Features
 
-- Implemented Email functionality using node mailer.
+- Possibility of buying and selling weapons with one state
+
+- Implemented Email functionality using node mailer
 
 ![mail](./img/end.png)
 
