@@ -16,12 +16,13 @@
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Features](#features)
-- [Project Status](#ProjectS)
+- [Future Features](#future-features)
+- [Project Status](#Projects)
 - [Acknowledgements](#acknowledgements)
   <br>
   <br>
 
-## General info
+# General info
 
 The goal of the game is to get as much money as possible. You get it by selling more and buying cheaper. pay attention to the geopolitical situation and the directions appearing on the screen. Have fun
 <br>
@@ -48,6 +49,7 @@ To run this project, install it locally using npm:
 $ npm install
 $ npm start
 ```
+</br>
 
 # Features
 
@@ -59,10 +61,11 @@ $ npm start
 
 <br>
 
-## Project Status
+# Project Status
 
-Project is _complete_
+Project is _in progress_
 
+</br>
 
 # Future features
 
@@ -76,6 +79,8 @@ Project is _complete_
 
 - Rewriting the code to a cleaner form
 
-## Acknowledgements
+</br>
+
+# Acknowledgements
 
 This project was inspired by movie 'Lord of War'
